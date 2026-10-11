@@ -1,0 +1,58 @@
+.navbar {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+
+}
+
+#navbar-li {
+    display: inline-block;
+    color: #5D5D5D;
+    list-style: none;
+    padding: 7px;
+    font-size: 15px;
+
+}
+header {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#icon {
+   color: #0D0D0D;
+    width:30px;
+    height: 27x;
+    margin-top: 0;
+    margin-left: 0;
+
+}
+#name {
+
+}
+#login {
+    background-color: #0D0D0D;
+    color: white;
+    border-radius: 9px;
+    height: 38px;
+}
+.styleInput {
+   position: relative;
+    border: 2px black solid;
+    border-radius: 8px;
+    width: 480px;
+    height: 80px;
+}
+#input-askAI {
+    position: relative;
+   border: 0 white solid;
+   left: 0;
+
+}
+.material-symbols-outlined {
+   position: absolute;
+    left: o;
+    bottom: 0;
+}
+
+
+

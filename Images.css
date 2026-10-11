@@ -1,0 +1,70 @@
+body {
+    
+    height: 888px;
+    margin: 0 auto;
+    border: 3px solid black;
+    background: #f9b9d7;
+    background: radial-gradient(circle, rgb(246, 199, 219) 0%, rgb(238, 226, 236) 100%);
+
+}
+
+#icon {
+    color: #0D0D0D;
+    width: 30px;
+    height: 27x;
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
+section {
+    display: flow-root;
+     background: #f9b9d7;
+    background: radial-gradient(circle, rgb(246, 199, 219) 0%, rgb(238, 226, 236) 100%);
+    height: 100px;
+    margin-top: 10px;
+    position: relative;
+}
+#title{
+    position: absolute;
+    left: 20%;
+}
+#title1 {
+    position: absolute;
+    left: 20%;
+    bottom: 70%;
+}
+section #img-front {
+    height: 300px;
+    width: 120px;
+    border-radius: 18px;
+    right: 20%;
+    left: 20%;
+    top: 50%;
+}
+#img-front {
+    display: inline-block;
+    position: relative;
+    padding: 2px 8px;
+    
+}
+div #img-mini-front {
+
+}
+#img-mini-front {
+    display: inline-block;
+    position: relative;
+    padding: 2px 8px;
+    width: 50px;
+    right:50%;
+    left: 50%;
+    border-radius: 18px;
+}
+
+
+#login {
+    background-color: #0D0D0D;
+    color: white;
+    border-radius: 9px;
+    height: 38px;
+}
