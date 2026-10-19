@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: 3px solid black;
+    background: white;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+#icon {
+    position: absolute;
+    color:
+        #0D0D0D;
+    width: 30px;
+    height: 27x;
+    top: 0;
+    left: 0;
+}
+
+#name {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#login {
+    position: absolute;
+    background-color:
+        #0D0D0D;
+    color: white;
+    border-radius: 25px;
+    height: 38px;
+    top: 0;
+    right: 12%;
+
+}
+
+#sign-up {
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 38px;
+    top: 0;
+    right: 3%;
+}
+
+.help {
+    position: absolute;
+    top: 7px;
+    right: 0.5%;
+
+}
+
+.navbar {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 0;
+    left: 30%;
+
+}
+main{
+    display: flex;
+     justify-content: center;
+    gap: 80px;
+     
+}
+
+#navbar-li {
+    display: inline-block;
+    color:
+        #5D5D5D;
+    list-style: none;
+    padding: 7px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gpt-texe {
+    margin-left: 10%;
+    margin-top: 16%;
+    width: 40%;
+    height: 40%;
+}
+
+.gpt-texe h1 {
+    color: #0D0D0D;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.gpt-texe p {
+    color: #0D0D0D;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.gpt-texe button {
+    color: white;
+    background-color: #0D0D0D;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    border-radius: 20px;
+    width: 400px;
+    height: 90px;
+    margin-top: 46%;
+    margin-left: 10%;
+    background-color: aliceblue;
+}
+.light{
+    display: flex;
+    
+    width: 9%;
+    height: 8%;
+    font-size: 9%;
+    color: #0D0D0D;
+    margin-top: -66px;
+}
+.div-box{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15%;
+  margin-right: 5%;
+  padding: 3%;
+  background: linear-gradient(135deg, #88CAFA 0%, #7D77E4 50%, #5D87F8 100%);
+   width: 590px;
+    height: 600px;
+    border-radius: 50px;
+}

@@ -1,58 +1,161 @@
-.navbar {
-    background-color: aliceblue;
-    position: sticky;
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: 3px solid black;
+    background:
+        #F7E7FA;
+    background: radial-gradient(circle, rgb(246, 199, 219) 0%, rgb(238, 226, 236) 100%);
+
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+#icon {
+    position: absolute;
+    color:
+        #0D0D0D;
+    width: 30px;
+    height: 27x;
     top: 0;
+    left: 0;
+}
+
+#name {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#login {
+    position: absolute;
+    background-color:
+        #0D0D0D;
+    color: white;
+    border-radius: 25px;
+    height: 38px;
+    top: 0;
+    right: 12%;
+
+}
+
+#sign-up {
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 38px;
+    top: 0;
+    right: 3%;
+}
+
+.help {
+    position: absolute;
+    top: 7px;
+    right: 0.5%;
+
+}
+
+.navbar {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 0;
+    left: 30%;
 
 }
 
 #navbar-li {
     display: inline-block;
-    color: #5D5D5D;
+    color:
+        #5D5D5D;
     list-style: none;
     padding: 7px;
     font-size: 15px;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-header {
+
+section {
     position: relative;
-    left: 0;
-    top: 0;
+    width: 800px;
+    height: 500px;
+    border: 1px #F7E7FA solid;
+    top: 158px;
+    right: 30%;
+    left: 22%;
 }
-#icon {
-   color: #0D0D0D;
-    width:30px;
-    height: 27x;
-    margin-top: 0;
-    margin-left: 0;
+
+#title {
+    top: 20px;
+    left: 20%;
 
 }
-#name {
 
-}
-#login {
-    background-color: #0D0D0D;
-    color: white;
-    border-radius: 9px;
-    height: 38px;
-}
-.styleInput {
-   position: relative;
-    border: 2px black solid;
-    border-radius: 8px;
-    width: 480px;
-    height: 80px;
-}
 #input-askAI {
-    position: relative;
-   border: 0 white solid;
-   left: 0;
+    display: flex;
+    border: 1px #F7E7FA solid;
+    margin-top: 0;
+    background:
+        #F7E7FA;
+    background: radial-gradient(circle, rgb(246, 199, 219) 0%, rgb(238, 226, 236) 100%);
 
 }
-.material-symbols-outlined {
-   position: absolute;
-    left: o;
+
+.div-Input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 24px;
+    background: #fff;
+    border: 1px solid #555;
+    border-radius: 20px;
+    padding: 8px 12px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+
+}
+
+#btn-input {
+      display: flex;
+    border: 1px rgb(121, 118, 118) solid;
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
     bottom: 0;
+    left: 0;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+#btn-input h6 {
+    color: rgb(121, 118, 118);
 
+}
 
+#btn-input span {
+    color: rgb(121, 118, 118);
+
+}
+
+#btn-input-graphic_eq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    background-color:
+        #5D5D5D;
+    /* bottom: 0; */
+    margin-right: 0;
+}
