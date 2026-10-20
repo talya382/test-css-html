@@ -66,54 +66,86 @@ header {
     right: 418px;
 }
 
+
 .gallery {
-    height: 100%;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
-    gap: 5px;
     position: relative;
+    height: 340px;
+    margin-top: 10%;
+        left: -114px;
 
 }
 
-#img-front {
-    display: flex;
+
+.gallery-item {
+    position: absolute;
+    top: 70px;
+    width: 100px;
+}
+
+.g1 {
+    left: 400px;
+}
+
+.g2 {
+    left: 505px;
+}
+
+.g3 {
+    left: 610px;
+}
+
+.g4 {
+    left: 715px;
+}
+
+.g5 {
+    left: 820px;
+}
+
+.g6 {
+    left: 925px;
+}
+
+.img-front {
+    display: block;
     height: 250px;
     width: 100px;
     border-radius: 15px;
-
 }
 
 .gallery h3 {
+    margin: 8px 0 0;
     text-align: center;
     font-size: 15px;
     color: #aba9ab;
 }
-
 #gallery-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    margin: 0;
     font-size: 30px;
-    margin-top: -415px;
-    margin-right: -98px;
 }
 
 #gallery-p {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -320px;
-    margin-right: -243px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    margin: 0;
 }
 
+.double-arrow {
+    position: absolute;
+    top: 0;
+    left: 925px;
+}
+
+
 .mini-gallery {
+    position: relative;
     margin-left: 25%;
     padding: 20px;
     font-family: Arial, sans-serif;
-    position: relative;
 }
 
 .mini-gallery h3 {
@@ -125,32 +157,70 @@ header {
     position: absolute;
     right: 40%;
     top: 0;
-
 }
 
 .discover-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 15px;
+    position: relative;
+    height: 175px;
 }
 
 .discover-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    position: absolute;
+    width: 300px;
+    height: 48px;
+}
+
+.d1 {
+    left: 0;
+    top: 0;
+}
+
+.d2 {
+    left: 330px;
+    top: 0;
+}
+
+.d3 {
+    left: 0;
+    top: 63px;
+}
+
+.d4 {
+    left: 330px;
+    top: 63px;
+}
+
+.d5 {
+    left: 0;
+    top: 126px;
+}
+
+.d6 {
+    left: 330px;
+    top: 126px;
 }
 
 .discover-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 48px;
     height: 48px;
     object-fit: cover;
     border-radius: 12px;
-    flex-shrink: 0;
 }
 
 .discover-item p {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    width: 235px;
     margin: 0;
     font-size: 15px;
+    line-height: 18px;
     color: #555;
+}
+
+.discover-item.two-lines p {
+    top: 6px;
 }
